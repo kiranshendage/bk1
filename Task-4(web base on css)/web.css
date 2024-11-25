@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navpage{
+    
+}
+.navimage{
+    width: 100%;
+    height: 400px;
+    border: 5px solid white;
+}
+.image{
+    width: 100%;
+    height: 400px;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px 5px 5px 5px;
+}
+.headline{
+    color: white;
+    font-size: 2rem;
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+.nav-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.symbol{
+    height: 120px;
+    width: 120px;
+    background-color: rgba(241, 219, 219, 0.615);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+    margin-top: 100px;
+    border-radius: 50%;
+    background-color: rgba(249, 248, 248, 0.99);
+    border: 5px solid rgba(0, 0, 0, 0.852);
+}
+.symbol p{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(246, 117, 4);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+}
+.option{
+    height: 50px;
+    width: 200px;
+    border: 3px solid black;
+    font-size: medium;
+    font-weight: 400;
+    padding-left: 10px;
+    margin-bottom: 300px;
+    border-radius: 3px;
+}
+.input{
+    height: 50px;
+    width: 500px;
+    border: 3px solid black;
+    font-size: medium;
+    font-weight: 400;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-bottom: 300px;
+    border-radius: 3px;
+}
+
+ /* box-2 */
+ .main-head{
+    margin-left: 30px;
+    margin-top: 20px;
+ }
+ .main-head p{
+    margin-top: 30px;
+    color: grey;
+ }
+ /* box-3 */
+ .main{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+ }
+ .main-img{
+    height: 200px;
+    width: 480px;
+    background-color: rgb(252, 232, 206);
+    display: flex;
+    margin-top: 15px;
+    border-radius: 3px;
+ }
+ .main-img:hover{
+    border: 3px solid rgb(47, 47, 47);
+}
+.m-image{
+    height: 180px; 
+    width: 180px; 
+    margin-top: 8px; 
+    margin-left: 10px;
+   border-radius: 3px;
+}
+.m-image:hover{
+    border: 3px solid rgb(251, 232, 239);
+}
+.paragraph h3{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.main-paragraph{
+    margin-top: 40px;
+
+}
+.paragraph p{
+    margin-left: 30px;
+}
+ /* hover effect  */
+.border{
+    border: 2px solid ;
+}
+.border:hover{
+    border: 2px solid rgb(250, 138, 9);
+}
